@@ -12,6 +12,6 @@ Given the initial pose of the bot, there are two major steps in EKF algorithm.
 
 * **CORRECTION STEP**  
 >Calculated mean and covariance are updated in this step through the sensor measurements.    
->Kalman Gain can be considered as the weighted mean which conveys signifies how certain the calculated sensor measurements are compared to the actual sensor measurements.  
+>Kalman Gain can be considered as the weighted mean which signifies how certain the calculated sensor measurements are compared to the actual sensor measurements.  
 >Finally the updated mean and covariance are then feeded back into prediction step for calculation of the next pose of bot to complete the loop.
 
